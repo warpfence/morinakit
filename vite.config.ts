@@ -2,10 +2,10 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import { fileURLToPath, URL } from 'node:url'
 
-// https://vitejs.dev/config/
+// https://vitejs.dev/config/s
 export default defineConfig({
   plugins: [vue()],
-  base: '/morinaFront/',
+  base: '/morinakit/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
