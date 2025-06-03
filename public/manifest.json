@@ -1,0 +1,83 @@
+{
+  "name": "MorinaKit - 일상 유틸리티 도구",
+  "short_name": "MorinaKit",
+  "description": "날짜 계산기, 유튜브 썸네일 추출기, QR 코드 생성기 등 일상생활에 필요한 유틸리티 도구들",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0ea5e9",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "ko",
+  "categories": ["utilities", "productivity", "tools"],
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48 32x32 16x16",
+      "type": "image/x-icon",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "날짜 계산기",
+      "short_name": "날짜계산",
+      "description": "D-Day, 요일, 만 나이 계산",
+      "url": "/date/calculator",
+      "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "QR 코드 생성기",
+      "short_name": "QR생성",
+      "description": "텍스트를 QR 코드로 변환",
+      "url": "/image/qr-generator",
+      "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "유튜브 썸네일",
+      "short_name": "썸네일",
+      "description": "유튜브 썸네일 추출",
+      "url": "/youtube/thumbnail",
+      "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "텍스트 도구",
+      "short_name": "텍스트",
+      "description": "대소문자 변환, 글자 수 세기",
+      "url": "/text/case-converter",
+      "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+} 
